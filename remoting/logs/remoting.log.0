@@ -1,0 +1,189 @@
+10月 30, 2023 5:43:58 下午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: JZW
+10月 30, 2023 5:43:58 下午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 3131.vf2b_b_798b_ce99
+10月 30, 2023 5:43:58 下午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\pythonProject1\TEST\remoting as a remoting work directory
+10月 30, 2023 5:43:58 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://62.234.59.35:8083/]
+10月 30, 2023 5:43:58 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+10月 30, 2023 5:43:58 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 62.234.59.35
+  Agent port:    8092
+  Identity:      a4:57:8a:81:2f:2c:b6:42:3b:f0:14:4a:82:0b:9b:e5
+10月 30, 2023 5:43:58 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+10月 30, 2023 5:43:58 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 62.234.59.35:8092
+10月 30, 2023 5:43:58 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+10月 30, 2023 5:44:03 下午 org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+信息: Waiting for ProtocolStack to start.
+10月 30, 2023 5:44:04 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: a4:57:8a:81:2f:2c:b6:42:3b:f0:14:4a:82:0b:9b:e5
+10月 30, 2023 5:44:04 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+10月 30, 2023 5:50:55 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+10月 30, 2023 5:51:05 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Performing onReconnect operation.
+10月 30, 2023 5:51:05 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: onReconnect operation completed.
+10月 30, 2023 5:51:05 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://62.234.59.35:8083/]
+10月 30, 2023 5:51:05 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+10月 30, 2023 5:51:05 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 62.234.59.35
+  Agent port:    8092
+  Identity:      a4:57:8a:81:2f:2c:b6:42:3b:f0:14:4a:82:0b:9b:e5
+10月 30, 2023 5:51:05 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+10月 30, 2023 5:51:05 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 62.234.59.35:8092
+10月 30, 2023 5:51:05 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+10月 30, 2023 5:51:10 下午 org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+信息: Waiting for ProtocolStack to start.
+10月 30, 2023 5:51:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: a4:57:8a:81:2f:2c:b6:42:3b:f0:14:4a:82:0b:9b:e5
+10月 30, 2023 5:51:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+10月 30, 2023 5:51:28 下午 org.jvnet.winp.Native loadByUrl
+警告: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library D:\pythonProject1\TEST\remoting\jarCache\ED\winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll already loaded in another classloader
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:167)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2404)
+	at java.base/java.lang.Runtime.load0(Runtime.java:817)
+	at java.base/java.lang.System.load(System.java:2015)
+	at org.jvnet.winp.Native.loadDll(Native.java:253)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:173)
+	at org.jvnet.winp.Native.load(Native.java:135)
+	at org.jvnet.winp.Native.<clinit>(Native.java:102)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:230)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:726)
+	at hudson.util.ProcessTree.get(ProcessTree.java:463)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1165)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1155)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:125)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+10月 30, 2023 5:52:00 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+10月 30, 2023 5:52:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Performing onReconnect operation.
+10月 30, 2023 5:52:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: onReconnect operation completed.
+10月 30, 2023 5:52:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://62.234.59.35:8083/]
+10月 30, 2023 5:52:10 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+10月 30, 2023 5:52:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 62.234.59.35
+  Agent port:    8092
+  Identity:      a4:57:8a:81:2f:2c:b6:42:3b:f0:14:4a:82:0b:9b:e5
+10月 30, 2023 5:52:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+10月 30, 2023 5:52:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 62.234.59.35:8092
+10月 30, 2023 5:52:10 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+10月 30, 2023 5:52:15 下午 org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+信息: Waiting for ProtocolStack to start.
+10月 30, 2023 5:52:15 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: a4:57:8a:81:2f:2c:b6:42:3b:f0:14:4a:82:0b:9b:e5
+10月 30, 2023 5:52:15 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+10月 30, 2023 5:52:29 下午 org.jvnet.winp.Native loadByUrl
+警告: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library D:\pythonProject1\TEST\remoting\jarCache\ED\winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll already loaded in another classloader
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:167)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2404)
+	at java.base/java.lang.Runtime.load0(Runtime.java:817)
+	at java.base/java.lang.System.load(System.java:2015)
+	at org.jvnet.winp.Native.loadDll(Native.java:253)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:173)
+	at org.jvnet.winp.Native.load(Native.java:135)
+	at org.jvnet.winp.Native.<clinit>(Native.java:102)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:230)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:726)
+	at hudson.util.ProcessTree.get(ProcessTree.java:463)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1165)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1155)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:125)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+10月 30, 2023 6:12:35 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Terminated
+10月 30, 2023 6:12:45 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Performing onReconnect operation.
+10月 30, 2023 6:12:45 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: onReconnect operation completed.
+10月 30, 2023 6:12:45 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://62.234.59.35:8083/]
+10月 30, 2023 6:12:45 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+10月 30, 2023 6:12:45 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 62.234.59.35
+  Agent port:    8092
+  Identity:      a4:57:8a:81:2f:2c:b6:42:3b:f0:14:4a:82:0b:9b:e5
+10月 30, 2023 6:12:45 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+10月 30, 2023 6:12:45 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 62.234.59.35:8092
+10月 30, 2023 6:12:45 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+10月 30, 2023 6:12:50 下午 org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+信息: Waiting for ProtocolStack to start.
+10月 30, 2023 6:12:50 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: a4:57:8a:81:2f:2c:b6:42:3b:f0:14:4a:82:0b:9b:e5
+10月 30, 2023 6:12:50 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
+10月 30, 2023 6:35:38 下午 org.jvnet.winp.Native loadByUrl
+警告: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library D:\pythonProject1\TEST\remoting\jarCache\ED\winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll already loaded in another classloader
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:167)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2404)
+	at java.base/java.lang.Runtime.load0(Runtime.java:817)
+	at java.base/java.lang.System.load(System.java:2015)
+	at org.jvnet.winp.Native.loadDll(Native.java:253)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:173)
+	at org.jvnet.winp.Native.load(Native.java:135)
+	at org.jvnet.winp.Native.<clinit>(Native.java:102)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:230)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:726)
+	at hudson.util.ProcessTree.get(ProcessTree.java:463)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1165)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1155)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:125)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
